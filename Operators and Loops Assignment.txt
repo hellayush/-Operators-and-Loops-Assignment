@@ -1,0 +1,107 @@
+Q1 - What are the Conditional Operators in Java ?
+
+ANS - 
+In Java, the conditional operator, also known as the ternary operator, is the only ternary operator available. It's unique because it takes three operands and is commonly used as a shorthand for an if-else statement. The syntax of the conditional operator is:
+SYNTAX - condition ? expression1 : expression2
+ 
+
+Q2 - What are the typMs of operators based on the number of operands ?
+
+ANS - Unary Operators: These operators work with only one operand.
+
+Example: Unary minus (-x), Unary plus (+x), Increment (++x), Decrement (--x), Logical complement (!x).
+Binary Operators: These operators work with two operands.
+
+Example: Addition (x + y), Subtraction (x - y), Multiplication (x * y), Division (x / y), Assignment (x = y), Equality (x == y).
+Ternary Operator: This is the only ternary operator in Java and works with three operands.
+
+Example: Conditional operator (condition ? expr1 : expr2).
+
+
+Q3 - What is thM use of Switch case in Java programming ?
+
+ANS - The switch statement in Java is a control flow statement used to execute different blocks of code based on the value of a variable or expression. It provides an alternative to using multiple if-else if-else statements when you have multiple conditions to check.
+SYNTAX 
+switch (expression) {
+    case value1:
+        break;
+    case value2:
+        break;
+    default:
+        
+}
+
+
+Q4 - What are the priority levels of arithmatic operation in Java ?
+
+ANS - The priority levels of arithmetic operations in Java, from highest to lowest precedence, are as follows:
+
+   * Parentheses: Operations enclosed in parentheses are evaluated first. Parentheses can be used to override the default precedence order.
+
+   * Unary Operators: Unary operators such as unary plus (+) and unary minus (-) are evaluated next.
+
+   * Multiplication, Division, and Modulus: Multiplication (*), division (/), and modulus (%) operations are evaluated next. These operations have the same level of precedence and are evaluated from left to right.
+
+   * Addition and Subtraction: Addition (+) and subtraction (-) operations are evaluated last. Like multiplication, division, and modulus, these operations also have the same level of precedence and are evaluated from left to right. 
+
+Q5 -  What are the conditional Statemnents and use of conditional statements in Java ?
+
+ANS  - 
+Conditional statements in Java are used to execute different blocks of code based on certain conditions. They allow you to control the flow of your program by determining which statements should be executed and which should be skipped.
+
+  * if Statement: The if statement evaluates a condition and executes a block of code if the condition is true.
+Syntax - 
+if (condition) {}
+
+  * if-else Statement: The if-else statement evaluates a condition and executes one block of code if the condition is true, and a different block of code if the condition is false.
+Syntax - 
+if (condition) {
+    
+} else {
+    
+}
+
+  * if-else if-else Statement: The if-else if-else statement allows you to evaluate multiple conditions and execute different blocks of code based on which condition is true.
+Syntax-
+if (condition1) {
+    
+} else if (condition2) {
+    
+} else {
+    
+}
+
+Q6 - What is the syntax of if else statements ?
+
+ANS - The syntax of the if-else statement in Java is as follows:
+Syntax - 
+if (condition) {
+    // code to execute if the condition is true
+} else {
+    // code to execute if the condition is false
+}
+
+
+Q7 -  What are the 3 types of iterative statements in java ?
+
+ANS - * for loop: The for loop is used to iterate over a range of values, often used when the number of iterations is known beforehand.
+
+      * while loop: The while loop repeatedly executes a block of code as long as a specified condition is true.
+
+      * do-while loop: The do-while loop is similar to the while loop, but it guarantees that the block of code is executed at least once before checking the condition.
+
+
+Q8 - Write the difference between for loop and do-while loop ?
+
+ANS - For Loop:
+
+ * In a for loop, the loop condition is evaluated before each iteration of the loop.
+ * The loop condition is checked at the beginning of the loop, and if it evaluates to true, the loop body is executed.
+ * If the loop condition evaluates to false initially, the loop body is not executed at all.
+
+     Do-While Loop:
+
+ * In a do-while loop, the loop condition is evaluated after each iteration of the loop.
+ * The loop body is executed first, and then the loop condition is checked.
+ * This guarantees that the loop body is executed at least once, regardless of whether the loop condition is initially true or false.
+
